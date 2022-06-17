@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f439664-6c6a-4c45-878f-88c1e21c23df" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/singleton/ConfigurationSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/singleton/SingletonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/singleton/SingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/singleton/StatefulService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/singleton/StatefulServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/AutoAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scan/AutoAppConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scan/filter/BeanA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scan/filter/BeanB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scan/filter/ComponentFilterAppConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scan/filter/MyExcludeComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scan/filter/MyIncludeComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/core/discount/RateDiscountPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/core/discount/RateDiscountPolicy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/hello/core/member/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/core/member/MemberServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/core/member/MemoryMemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/core/member/MemoryMemberRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/hello/core/order/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/core/order/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/hello/core/singleton/ConfigurationSingletonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/hello/core/singleton/ConfigurationSingletonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/discount/RateDiscountPolicy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/member/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/member/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/member/MemoryMemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +39,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -57,22 +65,22 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "1d2dfe7cbec4cb85764de7dce500cd05"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1d2dfe7cbec4cb85764de7dce500cd05&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -81,8 +89,43 @@
       <recent name="hello.core.singleton" />
       <recent name="hello.core.discount" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.core.scan.filter" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConfigurationSingletonTest.configurationDeep">
+  <component name="RunManager" selected="JUnit.ComponentFilterAppConfigTest.filterScan">
+    <configuration name="AutoAppConfigTest.basicScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.scan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.scan" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scan.AutoAppConfigTest" />
+      <option name="METHOD_NAME" value="basicScan" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComponentFilterAppConfigTest.filterScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.scan.filter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.scan.filter" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scan.filter.ComponentFilterAppConfigTest" />
+      <option name="METHOD_NAME" value="filterScan" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigurationSingletonTest.configurationDeep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -115,37 +158,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.singleton" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.SingletonTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonTest.springContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.singleton" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.SingletonTest" />
-      <option name="METHOD_NAME" value="springContainer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StatefulServiceTest.statefulServiceSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -171,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComponentFilterAppConfigTest.filterScan" />
+        <item itemvalue="JUnit.AutoAppConfigTest.basicScan" />
         <item itemvalue="JUnit.ConfigurationSingletonTest.configurationDeep" />
         <item itemvalue="JUnit.ConfigurationSingletonTest.configurationTest" />
         <item itemvalue="JUnit.StatefulServiceTest.statefulServiceSingleton" />
-        <item itemvalue="JUnit.SingletonTest.springContainer" />
-        <item itemvalue="JUnit.SingletonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +205,9 @@
       <workItem from="1655087609312" duration="900000" />
       <workItem from="1655113369128" duration="40000" />
       <workItem from="1655113463626" duration="36000" />
-      <workItem from="1655164836005" duration="6470000" />
+      <workItem from="1655164836005" duration="7116000" />
+      <workItem from="1655188042538" duration="16000" />
+      <workItem from="1655428936335" duration="3641000" />
     </task>
     <servers />
   </component>
