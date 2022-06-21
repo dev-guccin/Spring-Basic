@@ -25,8 +25,8 @@ public class AppConfig { // 필요한 구현객체를 직접 생성해서 주입
     @Bean
     public OrderService orderService(){
 
-//        return new OrderServiceImpl(memberRepository(), discountPolicy());
-        return null;
+        return new OrderServiceImpl(memberRepository(), discountPolicy());
+//        return null;
     }
     @Bean
     public DiscountPolicy discountPolicy(){
